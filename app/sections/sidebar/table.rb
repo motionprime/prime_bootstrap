@@ -1,8 +1,8 @@
 class SidebarTableSection < Prime::TableSection
   def sidebar_items
     [
-      {title: 'Home', action: :open_home},
-      {title: 'Columns', action: :open_columns}
+      {title: 'Home', action: :open_home, icon: :ui_icon_home },
+      {title: 'Columns', action: :open_columns, icon: :ui_icon_book }
     ]
   end
 

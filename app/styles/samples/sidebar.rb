@@ -14,11 +14,14 @@ Prime::Styles.define :sidebar do
   style :table_cell,
     selection_style: :none
 
+  style :action_icon,
+    left: 15
+
   style :action_title,
-    text_color: :app_dark,
-    left: 30,
+    text_color: :app_base,
+    left: 55,
     top: 10,
     width: 320,
-    font: proc { Prime::Config.font.name.uifont(20) },
+    font: :app_base.uifont(20),
     size_to_fit: true
 end

@@ -1,8 +1,5 @@
 class SidebarScreen < Prime::Screen
-  def render
-    @main_section = SidebarTableSection.new(screen: self)
-    @main_section.render
-  end
+  section :sidebar_table
 
   def open_home
     app_delegate.open_screen :home

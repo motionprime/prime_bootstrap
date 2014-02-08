@@ -1,7 +1,7 @@
 PATH
   remote: ../motion-prime
   specs:
-    motion-prime (0.7.1)
+    motion-prime (0.7.2)
       afmotion (~> 2.0.0)
       bubble-wrap (~> 1.4.0)
       cocoapods
@@ -74,6 +74,6 @@ PLATFORMS
 
 DEPENDENCIES
   motion-cocoapods (~> 1.4.0)
-  motion-prime (= 0.7.1)!
+  motion-prime (= 0.7.2)!
   motion-support (~> 0.2.4)
   prime_reside_menu (~> 0.1.4)
