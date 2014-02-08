@@ -15,11 +15,11 @@ Prime::Styles.define :sidebar do
     selection_style: :none
 
   style :action_icon,
-    left: 15
+    left: 25, width: 22, height: 22
 
   style :action_title,
     text_color: :app_base,
-    left: 55,
+    left: 60,
     top: 10,
     width: 320,
     font: :app_light.uifont(20),
