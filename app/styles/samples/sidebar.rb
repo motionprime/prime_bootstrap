@@ -22,6 +22,6 @@ Prime::Styles.define :sidebar do
     left: 55,
     top: 10,
     width: 320,
-    font: :app_base.uifont(20),
+    font: :app_light.uifont(20),
     size_to_fit: true
 end

@@ -5,6 +5,7 @@ Prime::Config.configure do |config|
   end
 
   config.fonts do |fonts|
+    fonts.light = "Ubuntu-Light"
     fonts.base = "Ubuntu"
   end
 
