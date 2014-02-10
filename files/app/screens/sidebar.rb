@@ -8,4 +8,8 @@ class SidebarScreen < Prime::Screen
   def open_columns
     app_delegate.open_screen :columns
   end
+
+  def open_icons
+    app_delegate.open_screen :icons
+  end
 end
