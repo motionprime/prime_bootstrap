@@ -8,7 +8,17 @@
 
 #### 2a. Create bootstrap project:
   
-    $ prime bootstrap myapp 
+    $ prime bootstrap myapp
+
+## Screenshots
+
+|Text|Columns|
+|---|---|
+|![Text](https://s3.amazonaws.com/motionprime/bootstrap-1.jpg)|![Columns](https://s3.amazonaws.com/motionprime/bootstrap-2.jpg)|
+
+|Icons|Sidebar|
+|---|---|
+|![Icons](https://s3.amazonaws.com/motionprime/bootstrap-3.jpg)|![Sidebar](https://s3.amazonaws.com/motionprime/bootstrap-4.jpg)|
 
 ## Contributing
 
