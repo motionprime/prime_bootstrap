@@ -2,6 +2,7 @@ Prime::Config.configure do |config|
   config.colors do |colors|
     colors.base = 0x1b75bc
     colors.dark = 0x333333
+    colors.light = 0xbbbbbb
   end
 
   config.fonts do |fonts|
