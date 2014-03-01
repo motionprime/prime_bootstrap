@@ -33,13 +33,15 @@ class BasicFormSection < Prime::FormSection
     },
     after_render: :set_default_date
 
-  field :delete, type: :submit,
+  field :submit, type: :submit,
     button: { 
       title: "Submit" 
     },
     action: :on_submit
 
   def on_submit
+    # hero = view("hero:button").currentTitle
+    # puts "Submitted hero: #{hero}"
     puts "test"
   end
 
