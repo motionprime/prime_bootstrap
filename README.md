@@ -6,7 +6,7 @@
 
     $ gem install motion-prime
 
-#### 2a. Create bootstrap project:
+#### 2. Create bootstrap project:
   
     $ prime bootstrap myapp
 
