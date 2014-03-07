@@ -16,6 +16,11 @@ class BasicFormSection < Prime::FormSection
       text: "",
       placeholder: "Enter description here"
     }
+  
+  field :true_or_false, type: :switch,
+    label: {
+      text: 'True or false?'
+    }
 
   field :hero, type: :select,
     label: { 
@@ -42,6 +47,10 @@ class BasicFormSection < Prime::FormSection
   def on_submit
     # hero = view("hero:button").currentTitle
     # puts "Submitted hero: #{hero}"
+    
+    # true_or_false = view("true_or_false:input").isOn
+    # puts "Choosed: #{true_or_false}"
+    
     puts "test"
   end
 
