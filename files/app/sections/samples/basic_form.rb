@@ -20,6 +20,9 @@ class BasicFormSection < Prime::FormSection
   field :true_or_false, type: :switch,
     label: {
       text: 'True or false?'
+    },
+    hint: {
+      text: "Switch on if true"
     }
 
   field :hero, type: :select,
@@ -27,7 +30,7 @@ class BasicFormSection < Prime::FormSection
       text: 'Hero' 
     },
     button: { 
-      title: "Please choose Hero",
+      title: "Please choose a Hero",
       title_color:  :app_base
     },
     action: :on_choose_hero

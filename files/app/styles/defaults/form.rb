@@ -48,59 +48,90 @@ MotionPrime::Styles.define :base_form do
     },
     text_color: :app_error
 
-  # affected: label of switch field
-  style :switch_field_label,
-    top: 10,
-    font: proc { :app_base.uifont(16) }
-
-  # affected: hint of switch input
-  style :switch_field_hint,
-    top: 40,
-    font: proc { :app_base.uifont(12) }
+  # affected: container of password and string field
+  style :string_field, :password_field, container: {height: 65} do
+    # affected: input of password and string field
+    style :input,
+      layer: {
+        border_width: 1,
+        border_color: :app_light
+      },
+      font: proc { :app_base.uifont(16) },
+      placeholder_font: proc { :app_base.uifont(16) },
+      background_color: :white,
+      text_color: :app_base,
+      padding_top: 6,
+      left: 0,
+      right: 0,
+      top: 25,
+      height: 30
+  end
 
   # affected: container of password and string field
-  style :string_field, :password_field,
-    container: {height: 65}
+  style :text_field, container: {height: 85} do
+    # affected: input of text field
+    style :input,
+      layer: {
+        border_width: 1,
+        border_color: :app_light
+      },
+      font: proc { :app_base.uifont(16) },
+      placeholder_font: proc { :app_base.uifont(16) },
+      background_color: :white,
+      text_color: :app_base,
+      padding_top: 6,
+      left: 0,
+      right: 0,
+      top: 25,
+      height: 50
+  end
 
-  # affected: input of password and string field
-  style :string_field_input, :password_field_input,
-    layer: {
-      border_width: 1,
-      border_color: :app_light
-    },
-    font: proc { :app_base.uifont(16) },
-    placeholder_font: proc { :app_base.uifont(16) },
-    background_color: :white,
-    padding_top: 6,
-    left: 0,
-    right: 0,
-    top: 25,
-    height: 30
+  # affected: container of switch field
+  style :switch_field, container: {height: 50} do
+    # affected: label of switch field
+    style :label,
+      top: 10,
+      font: proc { :app_base.uifont(16) }
 
-  # affected: container of password and string field
-  style :text_field,
-    container: {height: 85}
+    # affected: hint of switch input
+    style :hint,
+      top: 32,
+      font: proc { :app_base.uifont(12) }
 
-  # affected: input of text field
-  style :text_field_input,
-    layer: {
-      border_width: 1,
-      border_color: :app_light
-    },
-    font: proc { :app_base.uifont(16) },
-    placeholder_font: proc { :app_base.uifont(16) },
-    background_color: :white,
-    padding_top: 6,
-    left: 0,
-    right: 0,
-    top: 25,
-    height: 50
+    # affected: input of switch field
+    style :input,
+      top: 10,
+      right: 0,
+      width: 51
+  end
 
-  # affected: input of switch field
-  style :switch_field_input,
-    top: 10,
-    right: 0,
-    width: 51
+  style :select_field, container: {height: 70} do
+    # affected: button of select field
+    style :button,
+      background_color: :white,
+      left: 0,
+      right: 0,
+      top: 25,
+      height: 35,
+      title_shadow_color: :white,
+      content_horizontal_alignment: :left,
+      layer: {
+        border_color: :app_light,
+        border_width: 1
+      },
+      title_color: :gray,
+      title_label: {
+        font: proc {:app_base.uifont(16) }
+      }
+
+    # affected: arrow of select field
+    style :arrow,
+      image: "images/forms/select_arrow.png",
+      top: 37,
+      right: 5,
+      width: 9,
+      height: 14
+  end
 
   # affected: input of date field
   style :date_field_input,
@@ -116,32 +147,6 @@ MotionPrime::Styles.define :base_form do
     right: 0,
     top: 10,
     height: 44
-
-  # affected: button of select field
-  style :select_field_button,
-    background_color: :white,
-    left: 0,
-    right: 0,
-    top: 25,
-    height: 35,
-    title_shadow_color: :white,
-    content_horizontal_alignment: :left,
-    layer: {
-      border_color: :app_light,
-      border_width: 1
-    },
-    title_color: :gray,
-    title_label: {
-      font: proc {:app_base.uifont(16) }
-    }
-
-  # affected: arrow of select field
-  style :select_field_arrow,
-    image: "images/forms/select_arrow.png",
-    top: 37,
-    right: 5,
-    width: 9,
-    height: 14
 
   style :with_sections do
     style :field_switch,
