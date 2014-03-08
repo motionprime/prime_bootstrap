@@ -27,8 +27,8 @@ MotionPrime::Styles.define :base_form do
     text_color: :gray,
     top: 10,
     height: 16,
-    left: 0,
-    right: 0,
+    left: 15,
+    right: 15,
     font: proc { :app_base.uifont(12) },
     size_to_fit: true
 
@@ -36,8 +36,8 @@ MotionPrime::Styles.define :base_form do
   style :field_error_message, mixins: [:multiline],
     top: nil,
     bottom: 0,
-    width: 280,
-    left: 0,
+    width: 290,
+    left: 15,
     text_color: :app_error,
     font: proc { :app_base.uifont(12) }
 
@@ -61,8 +61,8 @@ MotionPrime::Styles.define :base_form do
       background_color: :white,
       text_color: :app_base,
       padding_top: 6,
-      left: 0,
-      right: 0,
+      left: 15,
+      right: 15,
       top: 25,
       height: 30
   end
@@ -80,8 +80,8 @@ MotionPrime::Styles.define :base_form do
       background_color: :white,
       text_color: :app_base,
       padding_top: 6,
-      left: 0,
-      right: 0,
+      left: 15,
+      right: 15,
       top: 25,
       height: 50
   end
@@ -91,17 +91,19 @@ MotionPrime::Styles.define :base_form do
     # affected: label of switch field
     style :label,
       top: 10,
+      left: 15,
       font: proc { :app_base.uifont(16) }
 
     # affected: hint of switch input
     style :hint,
       top: 32,
+      left: 15,
       font: proc { :app_base.uifont(12) }
 
     # affected: input of switch field
     style :input,
       top: 10,
-      right: 0,
+      right: 15,
       width: 51
   end
 
@@ -109,8 +111,8 @@ MotionPrime::Styles.define :base_form do
     # affected: button of select field
     style :button,
       background_color: :white,
-      left: 0,
-      right: 0,
+      left: 15,
+      right: 15,
       top: 25,
       height: 35,
       title_shadow_color: :white,
@@ -128,7 +130,7 @@ MotionPrime::Styles.define :base_form do
     style :arrow,
       image: "images/forms/select_arrow.png",
       top: 37,
-      right: 5,
+      right: 25,
       width: 9,
       height: 14
   end
@@ -143,8 +145,8 @@ MotionPrime::Styles.define :base_form do
   style :submit_field_button,
     background_color: :app_base,
     title_color: :white,
-    left: 0,
-    right: 0,
+    left: 15,
+    right: 15,
     top: 10,
     height: 44
 
