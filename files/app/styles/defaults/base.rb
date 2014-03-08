@@ -5,7 +5,7 @@ MotionPrime::Styles.define :base do
   style :table,
     top: 0,
     left: 0,
-    width: 320,
+    right: 0,
     bottom: 0,
     separator_inset: 0
 
@@ -13,7 +13,6 @@ MotionPrime::Styles.define :base do
     background_color: :clear
 
   style :form,
-    width: 290,
     left: 0,
     top: 0,
     right: 0,

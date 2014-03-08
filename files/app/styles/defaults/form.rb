@@ -8,14 +8,14 @@ MotionPrime::Styles.define :base_form do
     left: 0,
     bottom: 5,
     top: nil,
-    width: 320,
+    right: 0,
     size_to_fit: true
 
   style :header_hint,
     left: 0,
     bottom: 5,
     top: nil,
-    width: 320
+    right: 0
 
   style :field, :cell,
     selection_style: :none,
@@ -137,9 +137,10 @@ MotionPrime::Styles.define :base_form do
 
   # affected: input of date field
   style :date_field_input,
-    width: 300,
     height: 150,
-    top: 25, left: 0
+    top: 25, 
+    left: 15,
+    right: 15
 
   # affected: button of submit field
   style :submit_field_button,
