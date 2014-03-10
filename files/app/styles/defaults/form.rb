@@ -29,7 +29,8 @@ MotionPrime::Styles.define :base_form do
     height: 16,
     left: 15,
     right: 15,
-    font: proc { :app_base.uifont(12) },
+    font_name: :app_base,
+    font_size: 12,
     size_to_fit: true
 
   # affected: error message of any field
@@ -39,7 +40,8 @@ MotionPrime::Styles.define :base_form do
     width: 290,
     left: 15,
     text_color: :app_error,
-    font: proc { :app_base.uifont(12) }
+    font_name: :app_base,
+    font_size: 12
 
   # affected: any input of any field with errors
   style :field_input_with_errors,
@@ -56,8 +58,10 @@ MotionPrime::Styles.define :base_form do
         border_width: 1,
         border_color: :app_light
       },
-      font: proc { :app_base.uifont(16) },
-      placeholder_font: proc { :app_base.uifont(16) },
+      font_name: :app_base,
+      font_size: 16,
+      placeholder_font_name: :app_base,
+      placeholder_font_size: 16,
       background_color: :white,
       text_color: :app_base,
       padding_top: 6,
@@ -75,8 +79,10 @@ MotionPrime::Styles.define :base_form do
         border_width: 1,
         border_color: :app_light
       },
-      font: proc { :app_base.uifont(16) },
-      placeholder_font: proc { :app_base.uifont(16) },
+      font_name: :app_base,
+      font_size: 16,
+      placeholder_font_name: :app_base,
+      placeholder_font_size: 16,
       background_color: :white,
       text_color: :app_base,
       padding_top: 6,
@@ -92,13 +98,15 @@ MotionPrime::Styles.define :base_form do
     style :label,
       top: 10,
       left: 15,
-      font: proc { :app_base.uifont(16) }
+      font_name: :app_base,
+      font_size: 16
 
     # affected: hint of switch input
     style :hint,
       top: 32,
       left: 15,
-      font: proc { :app_base.uifont(12) }
+      font_name: :app_base,
+      font_size: 12
 
     # affected: input of switch field
     style :input,
@@ -123,7 +131,8 @@ MotionPrime::Styles.define :base_form do
       },
       title_color: :gray,
       title_label: {
-        font: proc {:app_base.uifont(16) }
+        font_name: :app_base,
+        font_size: 16
       }
 
     # affected: arrow of select field
