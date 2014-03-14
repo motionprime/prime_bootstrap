@@ -5,11 +5,13 @@ class AppDelegate < Prime::BaseAppDelegate
   end
 
   def setup_navigation_styles
-    bar_appearance = UINavigationBar.appearance
     settings = {
       UITextAttributeFont =>  :app_base.uifont(17),
       UITextAttributeTextColor =>  :app_base.uicolor
     }
+    bar_appearance = UINavigationBar.appearance
     bar_appearance.setTitleTextAttributes(settings)
+    bar_item_appearance = UIBarButtonItem.appearance
+    bar_item_appearance.setTitleTextAttributes settings, forState: UIControlStateNormal
   end
 end
