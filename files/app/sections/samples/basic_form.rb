@@ -51,10 +51,7 @@ class BasicFormSection < Prime::FormSection
     # hero = view("hero:button").currentTitle
     # puts "Submitted hero: #{hero}"
     
-    # true_or_false = view("true_or_false:input").isOn
-    # puts "Choosed: #{true_or_false}"
-    
-    puts "test"
+    puts field_values.inspect
   end
 
   def on_choose_hero
