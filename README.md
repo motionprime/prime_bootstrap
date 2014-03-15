@@ -30,8 +30,8 @@
 
 ## Credentials
 
-* Icons from:
-http://jlane.co/ios7-icons/
+* Font Awesome icons from:
+http://fortawesome.github.io/
 
 * Background from:
 http://www.prowebdesign.ro/9-free-blurred-backgrounds/
