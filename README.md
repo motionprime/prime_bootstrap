@@ -14,11 +14,11 @@
 
 |Text|Columns|
 |---|---|
-|![Text](https://s3.amazonaws.com/motionprime/bootstrap-1.png)|![Columns](https://s3.amazonaws.com/motionprime/bootstrap-2.png)|
+|![Text](https://s3.amazonaws.com/motionprime/bootstrap-1.png)|![Forms](https://s3.amazonaws.com/motionprime/bootstrap-2.png)|
 
 |Icons|Sidebar|
 |---|---|
-|![Icons](https://s3.amazonaws.com/motionprime/bootstrap-3.png)|![Sidebar](https://s3.amazonaws.com/motionprime/bootstrap-4.png)|
+|![Font Awesome Icons](https://s3.amazonaws.com/motionprime/bootstrap-3.png)|![Sidebar](https://s3.amazonaws.com/motionprime/bootstrap-4.png)|
 
 ## Contributing
 
@@ -31,7 +31,7 @@
 ## Credentials
 
 * Font Awesome icons from:
-http://fortawesome.github.io/
+http://fortawesome.github.io/Font-Awesome/
 
 * Background from:
 http://www.prowebdesign.ro/9-free-blurred-backgrounds/
