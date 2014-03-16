@@ -14,11 +14,11 @@
 
 |Text|Forms|
 |---|---|
-|![Text](https://s3.amazonaws.com/motionprime/bootstrap-1.png)|![Forms](https://s3.amazonaws.com/motionprime/bootstrap-2.png)|
+|![Text](https://s3.amazonaws.com/motionprime/bootstrap-01.png)|![Forms](https://s3.amazonaws.com/motionprime/bootstrap-02.png)|
 
 |Font Awesome Icons|Sidebar|
 |---|---|
-|![Font Awesome Icons](https://s3.amazonaws.com/motionprime/bootstrap-3.png)|![Sidebar](https://s3.amazonaws.com/motionprime/bootstrap-4.png)|
+|![Font Awesome Icons](https://s3.amazonaws.com/motionprime/bootstrap-03.png)|![Sidebar](https://s3.amazonaws.com/motionprime/bootstrap-04.png)|
 
 ## Contributing
 
