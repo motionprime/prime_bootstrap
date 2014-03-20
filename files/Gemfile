@@ -9,3 +9,6 @@ gem 'prime_awesome', '~> 0.0.1'
 
 # or add sliding menu for sidebar support
 # gem 'prime_sliding_menu', '~> 0.1.5'
+
+# Add sliding action cells support to MotionPrime.
+# gem 'prime_sliding_action'
