@@ -1,11 +1,11 @@
 class ListTableSection < Prime::TableSection
-  def table_data
+  def collection_data
     Hero.dummy.map do |model|
       ListItemSection.new(screen: screen, model: model)
     end
   end
 
-  def on_click(table, index)
+  def on_click(index)
     section = data[index.row]
     screen.parent_screen.main_section.set_hero(section.model)
     screen.back

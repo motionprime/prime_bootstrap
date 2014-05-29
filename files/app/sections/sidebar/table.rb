@@ -8,7 +8,7 @@ class SidebarTableSection < Prime::TableSection
     ]
   end
 
-  def table_data
+  def collection_data
     sidebar_items.map do |model|
       SidebarActionSection.new(model: model)
     end
