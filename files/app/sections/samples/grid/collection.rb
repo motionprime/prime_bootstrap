@@ -6,7 +6,7 @@ class GridCollectionSection < Prime::GridSection
   end
 
   def dummy
-    (1..15).to_a.map do |index|
+    (1..18).to_a.map do |index|
       "samples/#{index % 3 + 1}.jpg"
     end
   end
