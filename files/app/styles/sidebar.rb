@@ -18,7 +18,7 @@ Prime::Styles.define :sidebar do
     left: 25,
     width: 22,
     height: 22,
-    top: 16
+    top: 12
 
   style :action_title,
     text_color: :app_base,

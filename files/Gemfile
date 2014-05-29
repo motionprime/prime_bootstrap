@@ -5,7 +5,7 @@ gem 'motion-prime', '0.9.9.1'
 
 # add reside menu for sidebar support
 gem 'prime_reside_menu', '~> 0.1.4'
-gem 'prime_awesome', '~> 0.0.2'
+gem 'prime_awesome', '~> 0.0.3'
 
 # or add sliding menu for sidebar support
 # gem 'prime_sliding_menu', '~> 0.1.5'
