@@ -1,4 +1,4 @@
-Prime::Styles.define :list do
+Prime::Styles.define :table do
   style :item do
     style :title,
       text_color: :app_base,

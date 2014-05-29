@@ -1,7 +1,7 @@
-class ListTableSection < Prime::TableSection
+class TableCollectionSection < Prime::TableSection
   def collection_data
     Hero.dummy.map do |model|
-      ListItemSection.new(screen: screen, model: model)
+      TableItemSection.new(screen: screen, model: model)
     end
   end
 

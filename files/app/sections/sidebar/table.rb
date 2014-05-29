@@ -3,7 +3,7 @@ class SidebarTableSection < Prime::TableSection
     [
       {title: 'Home', action: :open_home, icon: :home },
       {title: 'Basic form', action: :open_basic_form, icon: :gear },
-      {title: 'Columns', action: :open_columns, icon: :th_large },
+      {title: 'Grid', action: :open_grid, icon: :th_large },
       {title: 'Icons', action: :open_icons, icon: :star }
     ]
   end
